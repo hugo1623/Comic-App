@@ -11,6 +11,7 @@ import { NavbarComponent } from './components/shared/navbar/navbar.component';
 import { HomeComponent } from './components/home/home.component';
 import { AboutComponent } from './components/about/about.component';
 import { HeroesComponent } from './components/heroes/heroes.component';
+import { HeroesService } from './servicios/heroes.service';
 
 
 
@@ -28,7 +29,9 @@ import { HeroesComponent } from './components/heroes/heroes.component';
     RouterModule,
     APP_ROUTING,
   ],
-  providers: [],
+  providers: [
+    HeroesService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
