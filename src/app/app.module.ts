@@ -12,6 +12,7 @@ import { HomeComponent } from './components/home/home.component';
 import { AboutComponent } from './components/about/about.component';
 import { HeroesComponent } from './components/heroes/heroes.component';
 import { HeroesService } from './servicios/heroes.service';
+import { DefinicionHeroeComponent } from './components/definicion-heroe/definicion-heroe.component';
 
 
 
@@ -21,7 +22,8 @@ import { HeroesService } from './servicios/heroes.service';
     NavbarComponent,
     HomeComponent,
     AboutComponent,
-    HeroesComponent
+    HeroesComponent,
+    DefinicionHeroeComponent
   ],
   imports: [
     BrowserModule,
