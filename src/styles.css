@@ -1,19 +1,27 @@
-body{
+body {
     padding-bottom: 50px;
     background: rgb(245, 239, 251) !important;
 }
+
 .main-container {
     margin-top: 50px;
     background: white;
 }
-.about-title{
+
+.about-title {
     color: rgb(0, 0, 0);
     font-size: 50px;
     text-align: center;
 }
-.p-title{
+
+.p-title {
     font-size: 15px;
 }
+
+.card-title {
+    text-align: center;
+}
+
 .animated {
     -webkit-animation-duration: 1s;
     animation-duration: 1s;
@@ -41,15 +49,18 @@ body{
 .fadeIn {
     animation-name: fadeIn;
 }
+
 /* .active-link{
     background: rgb(158, 158, 158);
     border-radius: 5px;
 } */
 
-.card-img, .card-img-bottom, .card-img-top {
+.card-img,
+.card-img-bottom,
+.card-img-top {
     width: auto !important;
-    margin: 0px 0px!important;
-    height: 512px;
+    margin: 0px 0px !important;
+    height: 450px;
     border-radius: 8px;
     margin: 0px auto;
 }
